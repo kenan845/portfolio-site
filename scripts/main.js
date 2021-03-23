@@ -33,3 +33,14 @@ alert("assignment 8 coming soon");
 function assignment9(){
 alert("assignment 9 coming soon");
   }
+
+function largerNumber(){
+  let a = parseInt(prompt("enter a positive number"));
+  let b = parseInt(prompt("enter a positive number"));
+  if (a > b){
+    document.getElementById("largerNum").innerHTML = a;
+  if (b > a) {
+    document.getElementById("largerNum").innerHTML = b;    
+  }
+}
+}

@@ -1,6 +1,7 @@
 ul {
   font-family: 'Roboto', sans-serif;
   font-size: 1em;
+  background-color:;
 }
 
 ul #nav {
@@ -19,17 +20,19 @@ font-size: 50px;
 li a {
   display: block;
   color: white;
+  background-color: palegreen;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
 
 li {
+  list-style-type: none;
   float: right;
 }
 
 li a:hover:not(.active) {
-  background-color: #111;
+  background-color:orange;
 }
 
 .active {
