@@ -39,8 +39,35 @@ function largerNumber(){
   let b = parseInt(prompt("enter a positive number"));
   if (a > b){
     document.getElementById("largerNum").innerHTML = a;
-  if (b > a) {
-    document.getElementById("largerNum").innerHTML = b;    
   }
+  if (b > a) {
+    document.getElementById("largerNum").innerHTML = b; 
+  }  
+  }
+
+
+function signOfProduct(){
+  let a = parseInt(prompt("enter a number"));
+  let b = parseInt(prompt("enter a number"));
+  let c = parseInt(prompt("enter a number"));
+  if (a, b, c => 0){
+  document.getElementById("signOfProduct").innerHTML = "the sign is +";
+  }
+  if (a < 0){
+  document.getElementById("signOfProduct").innerHTML = "the sign is -";
+  }
+  if (b < 0){
+  document.getElementById("signOfProduct").innerHTML = "the sign is -";
+  }
+  if (c < 0){
+  document.getElementById("signOfProduct").innerHTML = "the sign is -"; 
+  }
+}
+
+function threeNumberSort(){
+  let a b c = parseInt(prompt("enter a number"));
+
+if (a < b < c){
+document.getElementById("threeNumberSort").innerHTML = a, b, c; 
 }
 }
