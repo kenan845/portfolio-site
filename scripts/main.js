@@ -65,9 +65,11 @@ function signOfProduct(){
 }
 
 function threeNumberSort(){
-  let a b c = parseInt(prompt("enter a number"));
+  let num1 = parseInt(prompt("enter a number"));
+  let num2 = parseInt(prompt("enter a number"));
+  let num3 = parseInt(prompt("enter a number"));
 
-if (a < b < c){
-document.getElementById("threeNumberSort").innerHTML = a, b, c; 
-}
+  if (num1 < num2 && num2 < num3){
+    document.getElementById("threeNumberSort").innerHTML = "test"; 
+  }
 }
