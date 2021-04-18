@@ -79,4 +79,6 @@ function forSumThrees(){
    for(i = 0; i < 1000; i = i + 3);
 }
 
-
+function whileSumThrees(){
+  
+}
