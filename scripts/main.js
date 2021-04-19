@@ -82,3 +82,14 @@ function forSumThrees(){
 function whileSumThrees(){
   
 }
+
+
+
+
+
+
+
+
+function encrypt()
+let plaintext = prompt("enter your plaintext message:");
+endsWith() 
