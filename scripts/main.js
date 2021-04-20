@@ -90,6 +90,48 @@ function whileSumThrees(){
 
 
 
-function encrypt()
-let plaintext = prompt("enter your plaintext message:");
-endsWith() 
+function encrypt(){
+  var plaintext = prompt();
+  var re = plaintext.replace(/l/g, "3");
+  var re2 = re.replace(/L/g, "f");
+  var re3 = re2.replace(/i/g, "N");
+  var re4 = re3.replace(/u/g, "7");
+  var re5 = re4.replace(/e/g, "j");
+  var re6 = re5.replace(/a/g, "Y");
+  var re7 = re6.replace(/h/g, "90");
+  var re8 = re7.replace(/I/g, "8");
+  var re9 = re8.replace(/U/g, "7");
+  var re10 = re9.replace(/E/g, "16");
+  var re11 = re10.replace(/A/g, "k");
+  var re12 = re11.replace(/H/g, "15");
+  document.getElementById("encrypt").innerHTML = re12; 
+
+  var sl = re12.slice(7)
+  document.getElementById("encrypt").innerHTML = sl; 
+
+  var repeat = sl.repeat(2)
+  document.getElementById("encrypt").innerHTML = repeat;
+}
+
+function decrypt(){
+  var plaintext = prompt();
+  var re = plaintext.replace(/3/g, "l");
+  var re2 = re.replace(/f/g, "L");
+  var re3 = re2.replace(/N/g, "i");
+  var re4 = re3.replace(/7/g, "u");
+  var re5 = re4.replace(/j/g, "e");
+  var re6 = re5.replace(/Y/g, "a");
+  var re7 = re6.replace(/90/g, "h");
+  var re8 = re7.replace(/8/g, "I");
+  var re9 = re8.replace(/7/g, "U");
+  var re10 = re9.replace(/16/g, "E");
+  var re11 = re10.replace(/k/g, "A");
+  var re12 = re11.replace(/15/g, "H");
+  document.getElementById("decrypt").innerHTML = re12;
+
+  var sl = re12.slice(-1)
+  document.getElementById("decrypt").innerHTML = sl; 
+
+  var repeat = sl.repeat(1)
+  document.getElementById("decrypt").innerHTML = repeat;
+}
