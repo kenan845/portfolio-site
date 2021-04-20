@@ -109,8 +109,9 @@ function encrypt(){
   var sl = re12.slice(7)
   document.getElementById("encrypt").innerHTML = sl; 
 
-  var repeat = sl.repeat(2)
+  var repeat = sl.repeat(2)+re12.slice(0,8)
   document.getElementById("encrypt").innerHTML = repeat;
+  console.log(repeat)
 }
 
 function decrypt(){
@@ -129,9 +130,7 @@ function decrypt(){
   var re12 = re11.replace(/15/g, "H");
   document.getElementById("decrypt").innerHTML = re12;
 
-  var sl = re12.slice(-1)
-  document.getElementById("decrypt").innerHTML = sl; 
-
-  var repeat = sl.repeat(1)
+  var repeat = sl.repeat(1)+re12.slice(0,12)
   document.getElementById("decrypt").innerHTML = repeat;
+  console.log(repeat)
 }
